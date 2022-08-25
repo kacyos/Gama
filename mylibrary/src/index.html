@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <title>Document</title>
+  </head>
+  <body class="bg-light">
+    <main class="container d-flex flex-column justify-content-center">
+      <div class="d-flex flex-column justify-content-center">
+        <div class="mt-4 gap-2 h-auto d-flex justify-content-center">
+          <div class="input-group mb-3 w-50">
+            <ul class="dropdown-menu">
+              <div class="dropdown-item">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Default checkbox
+                </label>
+              </div>
+            </ul>
+            <input
+              type="text"
+              class="form-control rounded-start"
+              aria-label="Text input with dropdown button"
+            />
+            <button
+              class="btn btn-outline-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Categoria
+            </button>
+          </div>
+
+          <button
+            id="btn-search"
+            type="button"
+            class="btn btn-outline-primary h-25"
+          >
+            Buscar
+          </button>
+        </div>
+
+        <div class="d-flex justify-content-center gap-5">
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckDefault"
+            />
+            <label class="form-check-label" for="flexSwitchCheckDefault"
+              >Favoritos</label
+            >
+          </div>
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckDefault"
+            />
+            <label class="form-check-label" for="flexSwitchCheckDefault"
+              >Lidos</label
+            >
+          </div>
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckDefault"
+            />
+            <label class="form-check-label" for="flexSwitchCheckDefault"
+              >Recomendados</label
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="table-responsive mt-5">
+        <table class="table rounded table-striped caption-top">
+          <caption>
+            Todos os livros
+          </caption>
+          <thead>
+            <tr class="table-primary">
+              <th>Nome</th>
+              <th>Categoria</th>
+              <th>Páginas</th>
+              <th>Favorito</th>
+              <th>Lido</th>
+              <th>Recomendado</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+            <tr class="align-bottom">
+              <td>Nomed dasd dasd dasdasdsdad</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+            <tr class="align-top">
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Otto</td>
+              <td>X</td>
+              <td>X</td>
+              <td>X</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>

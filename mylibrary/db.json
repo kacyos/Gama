@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Tecnologia"
+    }
+  ],
+
+  "books": [
+    {
+      "id": 1,
+      "name": "JavaScript: O Guia Definitivo",
+      "categoriesId": 1,
+      "pages": 1080,
+      "recommended": false,
+      "read": false,
+      "favorite": false
+    }
+  ],
+
+  "profile": {
+    "name": "typicode"
+  }
+}
