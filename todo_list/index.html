@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="/js/scripts.js" type="module" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+  </head>
+  <body>
+    <main class="container d-flex flex-center flex-column">
+      <h1 class="text-center m-4">Todo list</h1>
+
+      <div class="d-flex flex-column" style="background-color: red">
+        <div class="d-flex w-50 input-group mb-4 m-4">
+          <input id="input-todo" class="form-control" type="text" />
+          <button id="btn-register" class="btn btn-primary">Cadastrar</button>
+        </div>
+      </div>
+
+      <div>
+        <table
+          class="table table-hover table-striped table-bordered rounded w-70"
+        >
+          <thead>
+            <tr class="table-info">
+              <th class="w-50" scope="col">Tarefas</th>
+              <th scope="col">Criação</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody id="todo-list"></tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
